@@ -1,0 +1,46 @@
+{
+    "args": [
+        "-o",
+        "test_i2c",
+        "--base_path",
+        "D:\\yilingsi\\Ti60F225_AD2020_HDMI_Display_30FPS\\ip",
+        "--vlnv",
+        {
+            "vendor": "efinixinc.com",
+            "library": "serial_interface",
+            "name": "efx_i2c_controller",
+            "version": "5.3"
+        }
+    ],
+    "conf": {
+        "SLAVE_ADDR": "84",
+        "I2C_FAST_MODE": "0",
+        "I2C_MODE": "\"MASTER\"",
+        "DATA_BYTE_WIDTH": "24",
+        "CLOCK_FREQ": "100",
+        "SPIKE_FILTER_CYCLE": "2"
+    },
+    "output": {
+        "external_source_source": [
+            "test_i2c\\test_i2c_define.vh",
+            "test_i2c\\test_i2c.v",
+            "test_i2c\\test_i2c_tmpl.vhd",
+            "test_i2c\\test_i2c_tmpl.v"
+        ],
+        "external_example_2": [
+            "test_i2c\\Ti60F225_devkit\\i2c_clock_gen.v",
+            "test_i2c\\Ti60F225_devkit\\i2c_controller_test.v",
+            "test_i2c\\Ti60F225_devkit\\efx_i2c_master_controller.v",
+            "test_i2c\\Ti60F225_devkit\\efx_i2c_slave_controller.v",
+            "test_i2c\\Ti60F225_devkit\\i2c_Ti60.sdc",
+            "test_i2c\\Ti60F225_devkit\\i2c_functions.vh",
+            "test_i2c\\Ti60F225_devkit\\test_i2c.v",
+            "test_i2c\\Ti60F225_devkit\\test_i2c_define.vh",
+            "test_i2c\\Ti60F225_devkit\\i2c_controller_test.peri.xml",
+            "test_i2c\\Ti60F225_devkit\\i2c_controller_test.xml"
+        ]
+    },
+    "ooc_synthesis": {},
+    "sw_version": "2025.1.110.4.9",
+    "generated_date": "2025-10-03T11:27:48.498980+00:00"
+}

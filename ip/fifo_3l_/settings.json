@@ -1,0 +1,57 @@
+{
+    "args": [
+        "-o",
+        "fifo_3l_",
+        "--base_path",
+        "D:\\yilingsi\\Ti60F225_AD2020_HDMI_Display_30FPS\\ip",
+        "--vlnv",
+        {
+            "vendor": "efinixinc.com",
+            "library": "memory",
+            "name": "efx_fifo_top",
+            "version": "8.0"
+        }
+    ],
+    "conf": {
+        "SYNC_CLK": "0",
+        "SYNC_STAGE": "2",
+        "DEPTH_2": "11",
+        "DATA_WIDTH": "24",
+        "MODE": "\"STANDARD\"",
+        "OUTPUT_REG": "0",
+        "PROG_FULL_ASSERT": "2046",
+        "PROGRAMMABLE_FULL": "\"STATIC_SINGLE\"",
+        "PFN_INTERNAL": "3",
+        "PEA_INTERNAL": "0",
+        "PEN_INTERNAL": "0",
+        "PROGRAMMABLE_EMPTY": "\"NONE\"",
+        "OPTIONAL_FLAGS": "0",
+        "PIPELINE_REG": "1",
+        "ASYM_WIDTH_RATIO": "4",
+        "BYPASS_RESET_SYNC": "0",
+        "ENDIANESS": "0",
+        "RAM_STYLE": "\"block_ram\"",
+        "OVERFLOW_PROTECT": "1",
+        "UNDERFLOW_PROTECT": "1"
+    },
+    "output": {
+        "external_source_source": [
+            "fifo_3l_\\fifo_3l__tmpl.sv",
+            "fifo_3l_\\fifo_3l_.sv",
+            "fifo_3l_\\fifo_3l__define.svh",
+            "fifo_3l_\\fifo_3l__tmpl.vhd"
+        ],
+        "external_example_2": [
+            "fifo_3l_\\Ti60F225_devkit\\fifo_demo.peri.xml",
+            "fifo_3l_\\Ti60F225_devkit\\fifo_demo.xml",
+            "fifo_3l_\\Ti60F225_devkit\\fifo_demo_top.v",
+            "fifo_3l_\\Ti60F225_devkit\\fifo_demo_Ti60.sdc",
+            "fifo_3l_\\Ti60F225_devkit\\efx_symmetric_width_fifo_top.sv",
+            "fifo_3l_\\Ti60F225_devkit\\fifo_3l_.sv",
+            "fifo_3l_\\Ti60F225_devkit\\fifo_3l__define.svh"
+        ]
+    },
+    "ooc_synthesis": {},
+    "sw_version": "2025.1.110.4.9",
+    "generated_date": "2025-10-04T17:03:36.122060+00:00"
+}

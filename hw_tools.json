@@ -1,0 +1,60 @@
+{
+    "config": {
+        "legacy_mode": false,
+        "fast_spi_active_mode": false,
+        "creset_before_jtag_config": false,
+        "hw_servers": [],
+        "codebug_mode": false
+    },
+    "debugger": {
+        "always_launch_new_wave_window": false
+    },
+    "programmer": {},
+    "svf_player": {},
+    "connections": {
+        "": {
+            "10660a79": {
+                "recent_hex": [
+                    "D:/yilingsi/Ti60F225_AD2020_HDMI_Display_30FPS/outflow/Ti60_Demo.hex",
+                    "D:/yilingsi/Ti60F225_AD2020_HDMI_Display_30FPS_2025.11.01_1730/Ti60F225_AD2020_HDMI_Display_30FPS/outflow/Ti60_Demo.hex",
+                    "D:/BaiduNetdiskDownload/VF-Ti60F225_HDK_Info_V2.0/06-FPGA_HDL_Basic-2023.2/03_FPGA_UART_Test_Bottom/outflow/FPGA_UART_Test.hex",
+                    "D:/yilingsi/Ti60F225_AD2020_HDMI_Display_30FPS/outflow/Ti60_Demo.bit"
+                ],
+                "recent_bit": [
+                    "D:/yilingsi/Ti60F225_AD2020_HDMI_Display_30FPS/outflow/Ti60_Demo.bit",
+                    "D:/yilingsi/Ti60F225_AD2020_HDMI_Display_30FPS/outflow/Ti60_Demo.hex",
+                    "D:/ding/dinglei/fpga_wj/demo/Ti60F225_A2020_HDMI_Display_30FPS/Ti60F225_AD2020_HDMI_Display_30FPS/outflow/Ti60_Demo.bit"
+                ],
+                "last_mode_used": "SPI Active using JTAG Bridge",
+                "flash_loader_filepath": {
+                    "spiloader": "",
+                    "spiloader_x8": "",
+                    "jtag2spiv3": "${EFINITY_HOME}\\pgm\\fli\\titanium\\u10660A79.bit",
+                    "jtag2spiv3_x8": ""
+                }
+            },
+            "ffffffff": {
+                "recent_hex": [],
+                "recent_bit": [],
+                "last_mode_used": "",
+                "flash_loader_filepath": {
+                    "spiloader": "",
+                    "spiloader_x8": "",
+                    "jtag2spiv3": "",
+                    "jtag2spiv3_x8": ""
+                }
+            },
+            "00000000": {
+                "recent_hex": [],
+                "recent_bit": [],
+                "last_mode_used": "",
+                "flash_loader_filepath": {
+                    "spiloader": "",
+                    "spiloader_x8": "",
+                    "jtag2spiv3": "",
+                    "jtag2spiv3_x8": ""
+                }
+            }
+        }
+    }
+}

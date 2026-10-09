@@ -1,0 +1,15 @@
+# FPGA images and packaged/tool resources must never undergo line-ending conversion.
+*.bit binary
+*.bin binary
+*.pickle binary
+*.zip binary
+*.rar binary
+*.FON binary
+*.fon binary
+*.exe binary
+*.BPL binary
+*.bpl binary
+*.bmp binary
+*.doc binary
+*.qpg binary
+*.vdb binary

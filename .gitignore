@@ -1,0 +1,21 @@
+# Efinity run logs and generated working databases
+/log/
+**/work_*/
+**/Testbench/work/
+
+# Generated implementation reports/databases; keep programming images
+/outflow/*
+!/outflow/Ti60_Demo.bit
+!/outflow/Ti60_Demo.bit.bin
+!/outflow/Ti60_Demo.hex
+!/outflow/Ti60_Demo.hex.bin
+
+# Machine-local/session files
+/app_session.ini
+*.log
+
+# Common editor and OS files
+.DS_Store
+Thumbs.db
+*.swp
+*~
